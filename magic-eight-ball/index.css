@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(48, 47, 47);
+}
+.eightball-container {
+    background-color: rgb(118, 27, 202);
+    height: 60vh;
+    width: 50vw;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture-of-eightball{
+    height: 30vh;
+    width: 30vh;
+    border: none;
+    border-radius: 15vh;
+    background-color: rgb(24, 22, 22);
+    margin-top: 15vh;
+}
+
+.window {
+    height: 15vh;
+    width: 15vh;
+    border: none;
+    border-radius: 7.5vh;
+    background-color: black;
+    margin-left: 7.5vh;
+    margin-top: 7.5vh;
+}
+
+.triangle{
+    height: 10vh;
+    width: auto;
+    margin-left: 2.5vh;
+    margin-top: 3.5vh;
+}
+
+.answer {
+    position: absolute;
+    top: 0;
+}
+
+
+.answer{
+    color: white;
+    margin-top: 50vh;
+    margin-left: 5vh;
+    font-size: .75rem;
+}
+
+.shake-me {
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 2vh;
+    height: 50px;
+    width: 100px;;
+}

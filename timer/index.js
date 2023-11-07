@@ -31,9 +31,19 @@ document.querySelector('.start-timer').addEventListener('click', ()=>{
 document.querySelector('.stop-timer').addEventListener('click', () => {
     if(timersON){
         clearInterval(intervalID);
-        seconds = seconds;
-        minutes = minutes;
-        hours  = hours;
         timersON = false;
     }
 });
+
+document.querySelector('.clear-timer').addEventListener('click', ()=>{
+    if(timersON){
+        clearInterval(intervalID)
+    }
+    document.querySelector('.seconds').innerHTML = '00';
+    document.querySelector('.minutes').innerHTML = '00';
+    document.querySelector('.hours').innerHTML = '00';
+    seconds = 0;
+    minutes = 0;
+    hours = 0;
+    timersON = false
+})
